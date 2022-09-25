@@ -758,19 +758,6 @@ html, body{
 .header-bottom-categories .main-menu ul li {
 	display: block;
 }
-/*
-==========================================
-     Slider Area Css
-==========================================
-*/
-.slider-area{
-	
-}
-.slider-active a img {
-	width: 100%;
-}
-
-
 
 
 
@@ -787,7 +774,7 @@ html, body{
 
 /*
 ==========================================
-     Offer Banner One Area Css
+     Offer Banner Area Css
 ==========================================
 */
 .offer-banner-active .owl-nav div {
@@ -818,47 +805,20 @@ html, body{
 	margin-right: -21px;
 }
 
+
+/*
+==========================================
+     Right Offer Area Css
+==========================================
+*/
+
+
 /*
 ==========================================
      Single Top Offer Sale Area Css
 ==========================================
 */
-.single-top-offer-sale{
-	position: relative;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 280px;
-}
-.single-top-offer-sale:hover{
-	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.3);
-}
-.single-top-offer-sale-content {
-	border-radius: 3px;
-	background: rgba(255,255,255,1 );
-	word-wrap: break-word;
-	padding: 20px 5px;
-	text-align: center;
-	position: absolute;
-	left: 0;
-	right: 0;
-	max-width: 100%;
-	width: auto;
-	margin-right: 20px;
-	margin-left: 20px;
-	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
-	bottom: 0px;
-	text-transform: capitalize;
-  }
-.single-top-offer-sale-discount-text{
-	display: inline-block;
-	color: #fc2779;
-	margin: 0 4px;
-	font-size: 18px;
-}
-.single-top-offer-sale-description{
-	font-size: 16px;
-}
+
 
 
 
