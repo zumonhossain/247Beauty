@@ -132,6 +132,17 @@ $('.sponsor-active').owlCarousel({
 	}
 })
 
+// Details-active
+$('.details-active').owlCarousel({
+	loop:true,
+	margin:30,
+	items:1,
+	navText:false,
+	nav:true,
+	dots:true,
+	autoplay:false,
+	dotsData:true,
+})
 
 
 // meanmenu
