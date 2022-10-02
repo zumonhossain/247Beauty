@@ -29,7 +29,6 @@ $('.offer-banner-active').owlCarousel({
 })
 
 // offer-banner-active
-
 $('.right-offer-active').owlCarousel({
 	loop:true,
 	margin:30,
@@ -54,6 +53,86 @@ $('.right-offer-active').owlCarousel({
 			}
 	}
 })
+
+// featured-brand-active
+$('.featured-brand-active').owlCarousel({
+	loop:true,
+	margin:30,
+	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+	nav:true,
+	dots:false,
+	responsive:{
+			0:{
+					items:1
+			},
+			480:{
+					items:1
+			},
+			767:{
+					items:3
+			},
+			992:{
+					items:4
+			},
+			1200:{
+					items:4
+			}
+	}
+})
+
+// Featured Product-active
+$('.featured-product-active').owlCarousel({
+	loop:true,
+	margin:30,
+	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+	nav:true,
+	dots:false,
+	responsive:{
+			0:{
+					items:1
+			},
+			480:{
+					items:1
+			},
+			767:{
+					items:3
+			},
+			992:{
+					items:4
+			},
+			1200:{
+					items:4
+			}
+	}
+})
+
+// Featured Product-active
+$('.sponsor-active').owlCarousel({
+	loop:true,
+	margin:30,
+	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+	nav:true,
+	dots:false,
+	responsive:{
+			0:{
+					items:1
+			},
+			480:{
+					items:1
+			},
+			767:{
+					items:3
+			},
+			992:{
+					items:4
+			},
+			1200:{
+					items:6
+			}
+	}
+})
+
+
 
 // meanmenu
 $('#mobile-menu').meanmenu({
