@@ -214,7 +214,7 @@ label {
 	line-height: 38px;
 }
 #scrollUp:hover {
-	background: #ff2d37;
+	background: #d7537b;
 }
 
 */
@@ -234,7 +234,7 @@ html, body{
 */
 .main-pra p {
 	text-align: center;
-	color: #ff2d37;
+	color: #d7537b;
 	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -258,7 +258,7 @@ html, body{
 	content: "";
 	width: 10px;
 	height: 10px;
-	background-color: #ff2d37;
+	background-color: #d7537b;
 	top: 50%;
 	margin-top: -4px;
 	left: 0;
@@ -269,7 +269,7 @@ html, body{
 	content: "";
 	width: 10px;
 	height: 10px;
-	background-color: #ff2d37;
+	background-color: #d7537b;
 	top: 50%;
 	margin-top: -4px;
 	right: 0;
@@ -281,31 +281,32 @@ html, body{
 ==========================================
 */
 .header-top{
-	background-color: #17435c;
+	background-color: #d7537b;
 }
 .social-icon{
 	padding: 7px 0 6px 0;
-	background-color: #424242;
+	background-color: #EC3B83;
 	text-align: center;
 }
 .social-icon ul li{
 	display: inline-block;
 	margin-right: 2px;
 }
-.social-icon ul li a{
-	display: block;
-	font-size: 14px;
-	color: #bbb;
-	width: 30px;
-	height: 30px;
-	text-align: center;
-	line-height: 31px;
-	border: 1px solid rgba(255, 255, 255, 0.2);
-	border-radius: 3px;
+.social-icon ul li a {
+    display: block;
+    font-size: 14px;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 31px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
 }
 .social-icon ul li a:hover{
-	border-color: #ff2d37;
-	background-color: #ff2d37;
+	border-color: #d7537b;
+	background-color: #ffffff;
+	color: #EC3B83;
 }
 .top-register{position: relative;}
 .top-register ul li{
@@ -321,19 +322,19 @@ html, body{
 	font-size: 13px;
 }
 .top-register ul li a i {
-	color: #ff2d37;
+	color: #fff;
 	margin-right: 5px;
 	font-size: 11px;
 }
 .top-register ul li:hover a{
-	color: #ff2d37;
+	color: #000000;
 }
 .top-register::after {
 	position: absolute;
 	top: 0;
 	left: 60px;
 	content: '/';
-	color: #878787;
+	color: #ffffff;
 }
 .top-language {
 	text-align: right;
@@ -408,12 +409,13 @@ html, body{
 	-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
 	        box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
 	text-align: center;
-	padding: 35px 0;
+	padding: 10px 0;
 }
 .logo a img {
-    max-width: 100%;
+    width: 100%;
     padding: 0px 30px;
-  }
+    height: 100px;
+}
 .filter {
 	float: left;
 }
@@ -427,16 +429,16 @@ html, body{
     border-radius: 5px 0px 0px 5px;
     width: 85%;
   }
-.bordered-btn {
-	height: 46px;
-	text-align: center;
-	line-height: 45px;
-	padding: 12px 20px;
-	font-size: 17px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
-	background-color: #17435c;
-	color: #fff;
+  .bordered-btn {
+    height: 46px;
+    text-align: center;
+    line-height: 45px;
+    padding: 11px 20px;
+    font-size: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #d7537b;
+    color: #fff;
 }
 
 .heart-icon a {
@@ -479,7 +481,7 @@ html, body{
 .dollar {
 	font-weight: bold;
 	margin-right: 23px;
-	color: #194359;
+	color: #d7537b;
 	margin-left: 5px;
 }
 
@@ -488,7 +490,7 @@ html, body{
 	top: -13px;
 	width: 22px;
 	height: 22px;
-	background: #194359;
+	background: #d7537b;
 	color: #fff;
 	content: '0';
 	border-radius: 50%;
@@ -592,7 +594,7 @@ html, body{
 }
 .main-menu ul li ul.submenu li:hover > a{
 	color: #fff;
-	background-color: #ff2d37;
+	background-color: #d7537b;
 }
 
 
@@ -742,10 +744,10 @@ html, body{
 	font-size: 16px;
 }
 .header-bottom {
-	background-color: #17435c;
+	background-color: #d7537b;
 }
 .header-bottom-categories .main-menu {
-	background: #282828;
+	background: #EC3B83;
 	color: #fff;
 }
 .header-bottom-categories .main-menu ul li {
@@ -789,8 +791,8 @@ html, body{
 	transition: .5s;
 }
 .offer-banner-active .owl-nav div:hover {
-	background-color: #ff2d37;
-	border-color: #ff2d37;
+	background-color: #d7537b;
+	border-color: #d7537b;
 	color: #fff;
 }
 .offer-banner-active .owl-nav .owl-next {
@@ -811,7 +813,7 @@ html, body{
     font-size: 14px;
 }
 .description-cat span:hover{
-	color: #ff2d37;
+	color: #d7537b;
 }
 /*
 ==========================================
@@ -837,8 +839,8 @@ html, body{
 	transition: .5s;
 }
 .featured-brand-active .owl-nav div:hover {
-	background-color: #ff2d37;
-	border-color: #ff2d37;
+	background-color: #d7537b;
+	border-color: #d7537b;
 	color: #fff;
 }
 .featured-brand-active .owl-nav .owl-next {
@@ -930,8 +932,8 @@ html, body{
 	transition: .5s;
 }
 .featured-product-active .owl-nav div:hover {
-	background-color: #ff2d37;
-	border-color: #ff2d37;
+	background-color: #d7537b;
+	border-color: #d7537b;
 	color: #fff;
 }
 .featured-product-active .owl-nav .owl-next {
@@ -987,8 +989,8 @@ html, body{
 	transition: .5s;
 }
 .sponsor-active .owl-nav div:hover {
-	background-color: #ff2d37;
-	border-color: #ff2d37;
+	background-color: #d7537b;
+	border-color: #d7537b;
 	color: #fff;
 }
 .sponsor-active .owl-nav .owl-next {
@@ -1064,26 +1066,6 @@ span.del {
     border-bottom: 1px solid #ddd;
     padding-bottom: 15px;
 }
-.details-social ul li {
-    float: left;
-}
-.details-social ul li a {
-    color: #ffffff;
-    display: block;
-    font-size: 18px;
-    width: 40px;
-    height: 37px;
-    background-color: #000000;
-    margin-left: 5px;
-    text-align: center;
-    line-height: 34px;
-    border-radius: 4px;
-}
-.details-social ul li a:hover{
-	color: #000000;
-	background-color: transparent;
-	border: 1px solid #000000
-}
 .details-quantity span {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
@@ -1103,10 +1085,11 @@ span.del {
 .details-add-to-cart a {
     color: #ffffff;
     background-color: #000000;
-    padding: 8px 20px;
+    padding: 8px 10px;
     display: inline-block;
     font-size: 14px;
     border-radius: 3px;
+    border: 1px solid #000000;
 }
 .details-add-to-cart a:hover {
     color: #000000;
@@ -1156,7 +1139,7 @@ span.del {
 ==========================================
 */
 .footer-bg{
-    background-color: #17435c;
+    background-color: #d7537b;
 }
 
 
@@ -1185,7 +1168,7 @@ span.del {
 	color: #ffffff;
 }
 .footer-list ul li a:hover{
-	color: #ff2d37;
+	color: #d7537b;
 }
 .list-icon {
 	color: #ffffff;
@@ -1204,7 +1187,7 @@ span.del {
 .footer-middle-overlay::before {
 	position: absolute;
 	content: '';
-	background-color: #ff2d37;
+	background-color: #d7537b;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -1242,7 +1225,7 @@ span.del {
 	border-radius: 3px;
 }
 .footer-social ul li a:hover{
-	background-color: #ff2d37;
+	background-color: #d7537b;
 	color: #fff;
 }
 .newsletter {
@@ -1261,7 +1244,7 @@ span.del {
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 14px;
-	background-color: #ff2d37;
+	background-color: #d7537b;
 	padding: 13px 20px;
 	line-height: 44px;
 }
