@@ -29,9 +29,9 @@ span.calender-month {
     display: block;
 }
 .shop-cart-list a {
-	border: 1px solid #000000;
+	border: 1px solid #EC3B83;
     color: #ffffff;
-    background-color: #000000;
+    background-color: #EC3B83;
     font-size: 14px;
     width: 35px;
     height: 35px;
@@ -41,14 +41,14 @@ span.calender-month {
 	transition: .3s;
 }
 .shop-cart-list a:hover{
-	color: #000000;
+	color: #EC3B83;
 	background: transparent;
-	border: 1px solid #000000;
+	border: 1px solid #EC3B83;
 }
 .shop-cart-list-two a {
-	border: 1px solid #000000;
+	border: 1px solid #EC3B83;
     color: #ffffff;
-    background-color: #000000;
+    background-color: #EC3B83;
     font-size: 14px;
     width: 35px;
     height: 35px;
@@ -59,9 +59,9 @@ span.calender-month {
 	text-align: center;
 }
 .shop-cart-list-two a:hover{
-	color: #000000;
+	color: #EC3B83;
 	background: transparent;
-	border: 1px solid #000000;
+	border: 1px solid #EC3B83;
 }
 .single-shop-product{
 	position: relative;
@@ -70,7 +70,7 @@ span.calender-month {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #da3333b5;
+    background-color: #EC3B83;
     width: 40px;
     height: 40px;
     line-height: 40px;
