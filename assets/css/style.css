@@ -249,6 +249,97 @@ span.header-top-right-text {
     height: 85px;
 }
 
+
+
+
+
+
+
+
+
+/* header middle menu css */
+.header-middle-area {
+    border-top: 1px solid #ddd;
+}
+.header-middle-main-menu ul{}
+.header-middle-main-menu ul li {
+  display: inline-block;
+  margin-right: 45px;
+  position: relative;
+}
+.header-middle-main-menu ul li a {
+  color: #222222;
+  display: block;
+  font-size: 14px;
+  padding: 32px 0;
+  text-transform: uppercase;
+}
+.header-middle-main-menu ul li:hover > a{color:#d7537b}
+
+/* mega menu */
+.header-middle-main-menu ul li .header-middle-mega-menu {
+    background: #ffffff;
+    left: 0;
+    opacity: 0;
+    padding: 8px 15px;
+    position: absolute;
+    top: 110%;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+}
+.header-middle-main-menu ul li:hover .header-middle-mega-menu{opacity:1;visibility:visible;top:100%}
+.header-middle-main-menu ul li .header-middle-mega-menu ul {
+  float: left;
+  padding-right: 10px;
+  width: 33.33%;
+}
+.header-middle-main-menu ul li .header-middle-mega-menu ul:last-child{padding-right:0}
+.header-middle-main-menu ul li .header-middle-mega-menu ul li {
+  display: block;
+  margin: 0;
+}
+.header-middle-main-menu ul li .header-middle-mega-menu ul li a {
+  color:rgba(3, 2, 26, 0.5);
+  text-transform: capitalize;
+}
+.header-middle-main-menu ul li .header-middle-mega-menu ul li a:hover {
+  color: #d7537b;
+}
+.header-middle-main-menu ul li .header-middle-mega-menu ul li.header-middle-mega-title a {
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #d7537b;
+    text-align: center;
+    padding: 6px 0px;
+}
+.header-middle-main-menu ul li .header-middle-mega-menu ul li.header-middle-mega-title a:hover {
+    background-color: #000000;
+}
+.header-middle-main-menu ul li.header-middle-static{position:static;}
+.header-middle-static{position:static;}
+.header-middle-pos{position:relative;}
+
+.header-middle-main-menu ul li .header-middle-mega-menu.header-middle-mega-full {
+    width: 100%;
+    z-index: 1;
+    border-top: 1px solid #dddddd;
+}
+.header-middle-main-menu ul li .header-middle-mega-menu.header-middle-mega-full ul{width:25%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* header middle shopping  shopping & search css */
 .header-middle-account{}
 .header-middle-account ul{
@@ -295,6 +386,9 @@ span.header-middle-account-icon-shoping {
     Header Bottom Css
 ==========================================
 */
+.header-bottom-area {
+    border-top: 1px solid #ddd;
+}
 .header-bottom-main-menu ul{}
 .header-bottom-main-menu ul li {
   display: inline-block;
@@ -312,15 +406,14 @@ span.header-middle-account-icon-shoping {
 
 /* mega menu */
 .header-bottom-main-menu ul li .header-bottom-mega-menu {
-  background: #222 none repeat scroll 0 0;
-  left: 0;
-  opacity: 0;
-  padding: 24px;
-  position: absolute;
-  top: 110%;
-  transition: all 0.3s ease 0s;
-  visibility: hidden;
-  width: 700px;
+    background: #ffffff;
+    left: 0;
+    opacity: 0;
+    padding: 8px 15px;
+    position: absolute;
+    top: 110%;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
 }
 .header-bottom-main-menu ul li:hover .header-bottom-mega-menu{opacity:1;visibility:visible;top:100%}
 .header-bottom-main-menu ul li .header-bottom-mega-menu ul {
@@ -334,19 +427,26 @@ span.header-middle-account-icon-shoping {
   margin: 0;
 }
 .header-bottom-main-menu ul li .header-bottom-mega-menu ul li a {
-  color: #fff;
-  padding: 10px 15px 10px 0;
+  color:rgba(3, 2, 26, 0.5);
+  padding: 10px 0px 0px 0px;
   text-transform: capitalize;
 }
 .header-bottom-main-menu ul li .header-bottom-mega-menu ul li a:hover {
   color: #d7537b;
 }
-.header-bottom-main-menu ul li .header-bottom-mega-menu ul li.header-bottom-mega-title a{border-bottom:1px solid #fff} 
+.header-bottom-main-menu ul li .header-bottom-mega-menu ul li.header-bottom-mega-title a {
+    font-weight: 600;
+    color: #000;
+}
 .header-bottom-main-menu ul li.header-bottom-static{position:static;}
 .header-bottom-static{position:static;}
 .header-bottom-pos{position:relative;}
 
-.header-bottom-main-menu ul li .header-bottom-mega-menu.header-bottom-mega-full{width:100%;z-index: 1;}
+.header-bottom-main-menu ul li .header-bottom-mega-menu.header-bottom-mega-full {
+    width: 100%;
+    z-index: 1;
+    border-top: 1px solid #dddddd;
+}
 .header-bottom-main-menu ul li .header-bottom-mega-menu.header-bottom-mega-full ul{width:16.66%}
 /*
 ==========================================
