@@ -223,14 +223,25 @@ label {
 .owl-carousel .owl-nav div.owl-next {
 	left: auto;
 	right: 20px;
+	background-color: #d7537b;
+	border-radius: 50%;
+	color: #fff;
+	border: 1px solid #d7537b;
+}
+.owl-carousel .owl-nav div.owl-prev {
+	background-color: #d7537b;
+	border-radius: 50%;
+	color: #fff;
+	border: 1px solid #d7537b;
 }
 .owl-carousel:hover .owl-nav div {
 	opacity: 1;
 	visibility: visible;
 }
 .owl-carousel .owl-nav div:hover {
-	background: #2B96CC;
-	color: #fff
+	background: #ffffff;
+	color: #d7537b;
+	border:1px solid #d7537b;
 }
 
 /* scrollUp */
@@ -255,6 +266,23 @@ label {
 }
 .margin-xl {
 	margin-bottom: 30px;
+}
+/*
+==========================================
+    All Heading Css
+==========================================
+*/
+.all-heading {
+	margin-bottom: 15px;
+	text-align: center;
+}
+.all-heading h3 {
+    color: #3f414d;
+    font-size: 24px;
+    -moz-letter-spacing: normal;
+    -ms-letter-spacing: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
 }
 /*
 ==========================================
@@ -477,10 +505,204 @@ i.fa-solid.fa-chevron-right.banner-icon {
 }
 /*
 ==========================================
-    Area Css
+    Top Brand Area Css
+==========================================
+*/
+.top-brand-body-content{
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 280px;
+}
+.top-brand-text {
+	position: absolute;
+    border-radius: 3px;
+    background: rgba(255,255,255,1 );
+    word-wrap: break-word;
+    padding: 5px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    max-width: 100%;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: 0 2px 3px 0 rgb(0 0 0 / 10%);
+    bottom: 0px;
+    text-transform: capitalize;
+    padding: 20px 5px;
+    height: 85px;
+}
+.top-brand-text-discount {
+    font-weight: 400;
+    line-height: 1.2;
+    padding: 0 5px;
+    color: #d7537b;
+    font-size: 18px;
+    margin: 0 4px;
+}
+.top-brand-text-description {
+    font-size: 16px;
+    color: #3f4144;
+}
+/*
+==========================================
+    Sponsor Logo Area Css
 ==========================================
 */
 
+/*
+==========================================
+    Footer Area Css
+==========================================
+*/
+.footer-bg{
+	background-color: #d7537b;
+}
+
+
+/* footer top */
+
+.footer-top {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.footer-title h3 {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.footer-title {
+	margin-bottom: 30px;
+}
+
+.footer-list{}
+.footer-list ul{}
+.footer-list ul li {
+	color: #ffffff;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.footer-list ul li a{
+	display: block;
+	color: #ffffff;
+}
+.footer-list ul li a:hover{
+	color: #000000;
+}
+.list-icon {
+	color: #ffffff;
+	font-size: 22px;
+	width: 45px;
+	display: inline-block;
+}
+
+/* footer middle */
+
+.footer-middle {
+	position: relative;
+	min-height: 130px;
+	margin-bottom: 30px;
+}
+.footer-middle-overlay::before {
+	position: absolute;
+	content: '';
+	background-color: #890e33;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: .3;
+}
+.footer-social-title {
+	float: left;
+	margin-right: 15px;
+}
+.footer-social-title h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	line-height: 44px;
+	margin: 0;
+}
+.footer-social{}
+.footer-social ul{}
+.footer-social ul li {
+	display: inline-block;
+	margin-right: 5px;
+}
+.footer-social ul li:last-child{
+	margin: 0px;
+}
+.footer-social ul li a {
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 41px;
+	font-size: 18px;
+	color: #484848;
+	display: block;
+	border-radius: 3px;
+	border: 1px solid #ffffff;
+}
+.footer-social ul li a:hover{
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #ffffff;
+}
+.newsletter {
+	float: right;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.footer-subscribe input {
+	border: none;
+	padding: 10px 20px;
+	width: 250px;
+	float: left;
+}
+.footer-subscribe a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	background-color: #890e33;
+	padding: 13px 20px;
+	line-height: 44px;
+}
+
+/* footer bottom */
+
+.footer-bottom {
+	min-height: 50px;
+}
+.footer-copy p {
+    margin: 0px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.payment-cart {
+	
+}
+.payment-cart ul {
+    text-align: right;
+}
+.payment-cart ul li {
+    display: inline-block;
+}
+.payment-cart ul li a {
+    
+}
+.payment-cart ul li a img {
+    width: 50px;
+    height: 33px;
+}
 /*
 ==========================================
     Area Css
