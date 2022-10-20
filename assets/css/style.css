@@ -207,7 +207,6 @@ label {
 	font-weight: 500;
 	font-size: 16px;
 }
-.header-top-right{}
 .header-top-right ul {
     float: right;
 }
@@ -249,19 +248,10 @@ span.header-top-right-text {
     height: 85px;
 }
 
-
-
-
-
-
-
-
-
 /* header middle menu css */
 .header-middle-area {
     border-top: 1px solid #ddd;
 }
-.header-middle-main-menu ul{}
 .header-middle-main-menu ul li {
   display: inline-block;
   margin-right: 45px;
@@ -341,7 +331,6 @@ span.header-top-right-text {
 
 
 /* header middle shopping  shopping & search css */
-.header-middle-account{}
 .header-middle-account ul{
 	float: right;
 }
@@ -361,7 +350,9 @@ span.header-top-right-text {
     text-decoration: none;
     color: #000000;
 }
-.header-middle-account ul li a:hover{}
+.header-middle-account ul li a:hover{
+	color: #d7537b;
+}
 .header-middle-account-icon-account {
     font-size: 22px;
     float: left;
@@ -375,10 +366,7 @@ span.header-middle-account-icon-shoping {
     font-size: 23px;
     margin-left: 23px;
 }
-.header-middle-search input {
-    width: 100%;
-    padding: 4px 12px;
-}
+
 
 
 /*
@@ -389,7 +377,6 @@ span.header-middle-account-icon-shoping {
 .header-bottom-area {
     border-top: 1px solid #ddd;
 }
-.header-bottom-main-menu ul{}
 .header-bottom-main-menu ul li {
   display: inline-block;
   margin-right: 45px;
@@ -604,8 +591,6 @@ i.fa-solid.fa-chevron-right.banner-icon {
 	margin-bottom: 30px;
 }
 
-.footer-list{}
-.footer-list ul{}
 .footer-list ul li {
 	color: #ffffff;
 	font-size: 14px;
@@ -654,8 +639,6 @@ i.fa-solid.fa-chevron-right.banner-icon {
 	line-height: 44px;
 	margin: 0;
 }
-.footer-social{}
-.footer-social ul{}
 .footer-social ul li {
 	display: inline-block;
 	margin-right: 5px;
@@ -711,17 +694,11 @@ i.fa-solid.fa-chevron-right.banner-icon {
     line-height: 32px;
     color: #ffffff;
 }
-.payment-cart {
-	
-}
 .payment-cart ul {
     text-align: right;
 }
 .payment-cart ul li {
     display: inline-block;
-}
-.payment-cart ul li a {
-    
 }
 .payment-cart ul li a img {
     width: 50px;
