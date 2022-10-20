@@ -1,6 +1,7 @@
 (function ($) {
 "use strict";
 
+
 // sponsor-logo-active
 
 $('.sponsor-logo-active').owlCarousel({
@@ -43,6 +44,7 @@ $(".menu-trigger").on("click", function() {
 $(".menu-close, .off-canvas-overlay").on("click", function() {
 	$(".off-canvas-menu, .off-canvas-overlay").removeClass("active");
 });
+
 
 
 

@@ -1,23 +1,17 @@
-
 /*
 ==========================================
     Google Fonts
 ==========================================
 */
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700');
-
-/*
-==========================================
-    Theme default css
-==========================================
-*/
-
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Poppins:300,400,500,600,700');
+ body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+/* font-family: 'Oswald', sans-serif; */
 .img {
 	max-width: 100%;
-	-webkit-transition: all 0.3s ease-out 0s;
-	-o-transition: all 0.3s ease-out 0s;
 	transition: all 0.3s ease-out 0s;
 }
 .f-left {
@@ -31,8 +25,9 @@
 }
 a,
 .button {
-	color: #000000;
 	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
 	-o-transition: all 0.3s ease-out 0s;
 	transition: all 0.3s ease-out 0s;
 }
@@ -42,14 +37,17 @@ a:focus,
 	outline: none;
 }
 a:focus,
-a:hover{
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	color: #2B96CC;
 	text-decoration: none;
 }
 a,
 button {
+	color: #1696e7;
 	outline: medium none;
 }
-button:focus,input:focus,input:focus,textarea,textarea:focus{outline: 0}
 .uppercase {
 	text-transform: uppercase;
 }
@@ -68,6 +66,7 @@ h6 {
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 400;
+	text-transform: normal;
 }
 h1 a,
 h2 a,
@@ -104,11 +103,11 @@ li {
 	list-style: none
 }
 p {
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: normal;
-	line-height: 28px;
+	line-height: 24px;
+	color: #7e7e7e;
 	margin-bottom: 15px;
-	text-align: justify;
 }
 hr {
 	border-bottom: 1px solid #eceff8;
@@ -137,17 +136,7 @@ label {
 	color: #fff;
 	text-shadow: none;
 }
-*::-webkit-input-placeholder {
-	color: #555555;
-	font-size: 14px;
-	opacity: 1;
-}
-*:-ms-input-placeholder {
-	color: #555555;
-	font-size: 14px;
-	opacity: 1;
-}
-*::-ms-input-placeholder {
+*::-moz-placeholder {
 	color: #555555;
 	font-size: 14px;
 	opacity: 1;
@@ -157,115 +146,8 @@ label {
 	font-size: 14px;
 	opacity: 1;
 }
-.theme-overlay {
-	position: relative
-}
-.theme-overlay::before {
-	background: #1696e7 none repeat scroll 0 0;
-	content: "";
-	height: 100%;
-	left: 0;
-	opacity: 0.6;
-	position: absolute;
-	top: 0;
-	width: 100%;
-}
 .separator {
 	border-top: 1px solid #f2f2f2
-}
-/* button style */
-
-.btn {
-	-moz-user-select: none;
-	background: #1696e7 none repeat scroll 0 0;
-	border: medium none;
-	border-radius: 2px;
-	color: #fff;
-	cursor: pointer;
-	display: inline-block;
-	font-size: 13px;
-	font-weight: 600;
-	letter-spacing: 1px;
-	line-height: 1;
-	margin-bottom: 0;
-	padding: 13px 25px;
-	text-align: center;
-	text-transform: uppercase;
-	-ms-touch-action: manipulation;
-	    touch-action: manipulation;
-	-webkit-transition: all 0.3s ease 0s;
-	-o-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-	vertical-align: middle;
-	white-space: nowrap;
-}
-.breadcrumb > .active {
-	color: #888;
-}
-.owl-carousel .owl-nav div {
-	background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
-	height: 40px;
-	left: 20px;
-	line-height: 40px;
-	opacity: 0;
-	position: absolute;
-	text-align: center;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	    -ms-transform: translateY(-50%);
-	        transform: translateY(-50%);
-	-webkit-transition: all 0.3s ease 0s;
-	-o-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-	visibility: hidden;
-	width: 40px;
-}
-.owl-carousel .owl-nav div.owl-next {
-	left: auto;
-	right: 20px;
-	background-color: #d7537b;
-	border-radius: 50%;
-	color: #fff;
-	border: 1px solid #d7537b;
-}
-.owl-carousel .owl-nav div.owl-prev {
-	background-color: #d7537b;
-	border-radius: 50%;
-	color: #fff;
-	border: 1px solid #d7537b;
-}
-.owl-carousel:hover .owl-nav div {
-	opacity: 1;
-	visibility: visible;
-}
-.owl-carousel .owl-nav div:hover {
-	background: #ffffff;
-	color: #d7537b;
-	border:1px solid #d7537b;
-}
-
-/* scrollUp */
-#scrollUp {
-	background: #7DBA2F;
-	height: 35px;
-	width: 35px;
-	right: 50px;
-	bottom: 77px;
-	color: #fff;
-	font-size: 20px;
-	text-align: center;
-	border-radius: 50%;
-	font-size: 20px;
-	line-height: 34px;
-}
-#scrollUp:hover {
-	background: #444;
-}
-.section-padding {
-	padding: 27px 0px;
-}
-.margin-xl {
-	margin-bottom: 30px;
 }
 /*
 ==========================================
@@ -284,11 +166,15 @@ label {
     letter-spacing: normal;
     text-transform: uppercase;
 }
+
 /*
 ==========================================
-    Header Top Area Css
+    Header Top Css
 ==========================================
 */
+.header-area {
+	min-height: 170px;
+}
 .header-top{
 	background-color: #d7537b;
 	height: 40px;
@@ -353,10 +239,9 @@ span.header-top-right-text {
 	color: #ffffff;
 	border-color: #ffffff;
 }
-
 /*
 ==========================================
-    Header Middle Area Css
+    Header Middle Css
 ==========================================
 */
 .header-middle-logo img {
@@ -364,53 +249,7 @@ span.header-top-right-text {
     height: 85px;
 }
 
-.header-middle-main-menu{}
-.header-middle-main-menu ul{}
-.header-middle-main-menu ul li{
-	display: inline-block;
-	margin-right: 30px;
-	position: relative;
-}
-.header-middle-main-menu ul li a {
-    padding: 32px 0px;
-    display: block;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: capitalize;
-    color: #03021a;
-    margin: 0 auto;
-}
-
-.header-middle-main-menu ul li:hover > a{
-	color: #d7537b;
-}
-/* header-middle-submenu */
-.header-middle-main-menu ul li ul.header-middle-submenu {
-    position: absolute;
-    width: 870px;
-    top: 110%;
-    background: #ddd;
-    left: -204px;
-    transition: .3s;
-    visibility: hidden;
-    opacity: 0;
-}
-.header-middle-main-menu ul li:hover > ul.header-middle-submenu {
-	visibility: visible;
-	opacity: 1;
-	top: 100%
-}
-.header-middle-main-menu ul li ul.header-middle-submenu li {
-    display: block;
-    margin: 0;
-}
-.header-middle-main-menu ul li ul.header-middle-submenu li a {
-    color: #000;
-    padding: 10px 20px;
-    background-color: #d8d8d8;
-    margin-right: 15px;
-}
-
+/* header middle shopping  shopping & search css */
 .header-middle-account{}
 .header-middle-account ul{
 	float: right;
@@ -449,21 +288,66 @@ span.header-middle-account-icon-shoping {
     width: 100%;
     padding: 4px 12px;
 }
-.nav-pills .nav-link.hmsbcr-nav.active, .nav-pills .show>.nav-link {
-    color: #fff;
-    background-color: #d7537b;
-}
-
-/* header bottom css */
-.nav-pills .nav-link.hbc-tab.active, .nav-pills .show>.nav-link {
-    color: #fff;
-    background-color: #d7537b;
-}
-.nav-pills .nav-link.hbc-tab, .nav-pills .show>.nav-link {
-    color: #000;
-}
 
 
+/*
+==========================================
+    Header Bottom Css
+==========================================
+*/
+.header-bottom-main-menu ul{}
+.header-bottom-main-menu ul li {
+  display: inline-block;
+  margin-right: 45px;
+  position: relative;
+}
+.header-bottom-main-menu ul li a {
+  color: #222222;
+  display: block;
+  font-size: 14px;
+  padding: 12px 0;
+  text-transform: uppercase;
+}
+.header-bottom-main-menu ul li:hover > a{color:#d7537b}
+
+/* mega menu */
+.header-bottom-main-menu ul li .header-bottom-mega-menu {
+  background: #222 none repeat scroll 0 0;
+  left: 0;
+  opacity: 0;
+  padding: 24px;
+  position: absolute;
+  top: 110%;
+  transition: all 0.3s ease 0s;
+  visibility: hidden;
+  width: 700px;
+}
+.header-bottom-main-menu ul li:hover .header-bottom-mega-menu{opacity:1;visibility:visible;top:100%}
+.header-bottom-main-menu ul li .header-bottom-mega-menu ul {
+  float: left;
+  padding-right: 30px;
+  width: 33.33%;
+}
+.header-bottom-main-menu ul li .header-bottom-mega-menu ul:last-child{padding-right:0}
+.header-bottom-main-menu ul li .header-bottom-mega-menu ul li {
+  display: block;
+  margin: 0;
+}
+.header-bottom-main-menu ul li .header-bottom-mega-menu ul li a {
+  color: #fff;
+  padding: 10px 15px 10px 0;
+  text-transform: capitalize;
+}
+.header-bottom-main-menu ul li .header-bottom-mega-menu ul li a:hover {
+  color: #d7537b;
+}
+.header-bottom-main-menu ul li .header-bottom-mega-menu ul li.header-bottom-mega-title a{border-bottom:1px solid #fff} 
+.header-bottom-main-menu ul li.header-bottom-static{position:static;}
+.header-bottom-static{position:static;}
+.header-bottom-pos{position:relative;}
+
+.header-bottom-main-menu ul li .header-bottom-mega-menu.header-bottom-mega-full{width:100%;z-index: 1;}
+.header-bottom-main-menu ul li .header-bottom-mega-menu.header-bottom-mega-full ul{width:16.66%}
 /*
 ==========================================
     Banner Or Slider Area Css
@@ -553,7 +437,47 @@ i.fa-solid.fa-chevron-right.banner-icon {
     Sponsor Logo Area Css
 ==========================================
 */
-
+.owl-carousel .owl-nav div {
+	background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+	height: 40px;
+	left: 20px;
+	line-height: 40px;
+	opacity: 0;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	visibility: hidden;
+	width: 40px;
+}
+.owl-carousel .owl-nav div.owl-next {
+	left: auto;
+	right: 20px;
+	background-color: #d7537b;
+	border-radius: 50%;
+	color: #fff;
+	border: 1px solid #d7537b;
+}
+.owl-carousel .owl-nav div.owl-prev {
+	background-color: #d7537b;
+	border-radius: 50%;
+	color: #fff;
+	border: 1px solid #d7537b;
+}
+.owl-carousel:hover .owl-nav div {
+	opacity: 1;
+	visibility: visible;
+}
+.owl-carousel .owl-nav div:hover {
+	background: #ffffff;
+	color: #d7537b;
+	border:1px solid #d7537b;
+}
 /*
 ==========================================
     Footer Area Css
@@ -720,3 +644,38 @@ i.fa-solid.fa-chevron-right.banner-icon {
     Area Css
 ==========================================
 */
+
+/*
+==========================================
+    Area Css
+==========================================
+*/
+
+/*
+==========================================
+    Area Css
+==========================================
+*/
+
+/*
+==========================================
+    Area Css
+==========================================
+*/
+
+/*
+==========================================
+    Area Css
+==========================================
+*/
+
+
+
+
+
+
+
+
+
+
+
