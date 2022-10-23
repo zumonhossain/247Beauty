@@ -203,10 +203,10 @@ label {
     border: 0px !important;
 }
 .left-message a {
-    color: #000000 !important;
+    color: #ffffff;
     text-decoration: none;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 14px;
 }
 .header-top-right ul {
     float: right;
@@ -225,12 +225,13 @@ label {
     width: 100%;
     display: inline-block;
     text-decoration: none;
-    color: #000000;
+    color: #fff;
 }
 span.header-top-right-icon {
     font-size: 14px;
     float: left;
     margin-right: 3px;
+    color: #fff;
 }
 span.header-top-right-text {
     margin-left: 2px;
@@ -349,7 +350,7 @@ span.header-top-right-text {
 	width: 100%;
     display: inline-block;
     text-decoration: none;
-    color: #000000;
+    color: #d7537b;
 }
 .header-middle-account ul li a:hover{
 	color: #d7537b;
@@ -366,6 +367,7 @@ span.header-top-right-text {
 span.header-middle-account-icon-shoping {
     font-size: 23px;
     margin-left: 23px;
+    color: #d7537b;
 }
 
 
