@@ -5,6 +5,7 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Poppins:300,400,500,600,700');
  body {
+    background-color: rgb(243, 243, 243);
 	font-family: 'Poppins', sans-serif;
 	font-weight: normal;
 	font-style: normal;
@@ -311,8 +312,8 @@ span.header-top-right-text {
 
 .header-middle-main-menu ul li .header-middle-mega-menu.header-middle-mega-full {
     width: 100%;
-    z-index: 1;
-    border-top: 1px solid #dddddd;
+    z-index: 2;
+    border: 1px solid #dddddd;
 }
 .header-middle-main-menu ul li .header-middle-mega-menu.header-middle-mega-full ul{width:25%}
 
@@ -431,8 +432,8 @@ span.header-middle-account-icon-shoping {
 
 .header-bottom-main-menu ul li .header-bottom-mega-menu.header-bottom-mega-full {
     width: 100%;
-    z-index: 1;
-    border-top: 1px solid #dddddd;
+    z-index: 2;
+    border: 1px solid #dddddd;
 }
 .header-bottom-main-menu ul li .header-bottom-mega-menu.header-bottom-mega-full ul{width:16.66%}
 /*
@@ -462,6 +463,45 @@ i.fa-solid.fa-chevron-right.banner-icon {
     height: 56px;
     width: 56px;
     top: 45%;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 6px;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #ffffff;
+    border-radius: 100%;
+    color: #000000;
+    line-height: 56px;
+}
+/*
+==========================================
+    Promotional Banner Area Css
+==========================================
+*/
+i.fa-solid.fa-chevron-left.promotional-banner-icon {
+    transform: initial;
+    height: 56px;
+    width: 56px;
+    top: 40%;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 56px;
+    border-radius: 100%;
+}
+i.fa-solid.fa-chevron-right.promotional-banner-icon {
+    transform: initial;
+    height: 56px;
+    width: 56px;
+    top: 40%;
     content: "";
     display: inline-block;
     position: absolute;
@@ -521,50 +561,174 @@ i.fa-solid.fa-chevron-right.banner-icon {
 }
 /*
 ==========================================
+    Promotional Banner Two Area Css
+==========================================
+*/
+i.fa-solid.fa-chevron-left.promotional-banner-two-icon {
+    transform: initial;
+    height: 56px;
+    width: 56px;
+    top: 25%;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 56px;
+    border-radius: 100%;
+}
+i.fa-solid.fa-chevron-right.promotional-banner-two-icon {
+    transform: initial;
+    height: 56px;
+    width: 56px;
+    top: 25%;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 6px;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #ffffff;
+    border-radius: 100%;
+    color: #000000;
+    line-height: 56px;
+}
+/*
+==========================================
+    Best sellers Area Css
+==========================================
+*/
+.single-best-sellers {
+    border: 1px solid #dddddd;
+}
+.best-seller-text {
+    padding: 10px 15px;
+}
+.best-seller-title span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    overflow: hidden;
+    display: block;
+    margin: 0px 0px 0.125rem;
+    color: rgb(0, 19, 37);
+    text-overflow: ellipsis;
+}
+.best-seller-kg span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: rgb(117, 117, 117);
+    margin: 0px 0px 0.25rem;
+    padding: 0px;
+    text-transform: capitalize;
+}
+.best-seller-rating span {
+    display: inline-block;
+    font-size: 12px;
+}
+span.best-seller-main-price {
+    color: rgb(0, 19, 37);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+span.best-seller-discount-price {
+    text-decoration-line: line-through;
+    padding-left: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: rgba(0, 19, 37, 0.64);
+}
+
+
+
+
+/* best-sellers-active Carousel */
+
+.best-sellers-active .owl-nav div {
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	margin-top: -23px;
+	font-weight: 400;
+	margin-left: -21px;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.best-sellers-active .owl-nav div:hover {
+	background-color: #d7537b;
+	border-color: #d7537b;
+	color: #fff;
+}
+.best-sellers-active .owl-nav .owl-next {
+	right: 0;
+	margin-right: -21px;
+}
+/*
+==========================================
+    Featured Brands Area Css
+==========================================
+*/
+.single-featured-brands {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    /* border-radius: 3px; */
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 22%);
+    display: block;
+    background: white;
+}
+.single-featured-brands:hover{
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 30%);
+}
+.single-featured-brands-image img {
+    width: 100%;
+    height: 270px;
+}
+.single-featured-brands-text {
+    height: 66px;
+    width: 100%;
+    position: relative;
+    border-radius: 0px 0px 3px 3px;
+    background: #ffffff;
+    overflow-wrap: break-word;
+    padding: 10px 0px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.single-featured-brands-text-discount span {
+    font-size: 16px;
+    display: inline-block;
+    color: #d7537b;
+}
+.single-featured-brands-text-description span {
+    color: rgb(63, 65, 77);
+}
+/*
+==========================================
     Sponsor Logo Area Css
 ==========================================
 */
-.owl-carousel .owl-nav div {
-	background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
-	height: 40px;
-	left: 20px;
-	line-height: 40px;
-	opacity: 0;
-	position: absolute;
-	text-align: center;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	    -ms-transform: translateY(-50%);
-	        transform: translateY(-50%);
-	-webkit-transition: all 0.3s ease 0s;
-	-o-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-	visibility: hidden;
-	width: 40px;
-}
-.owl-carousel .owl-nav div.owl-next {
-	left: auto;
-	right: 20px;
-	background-color: #d7537b;
-	border-radius: 50%;
-	color: #fff;
-	border: 1px solid #d7537b;
-}
-.owl-carousel .owl-nav div.owl-prev {
-	background-color: #d7537b;
-	border-radius: 50%;
-	color: #fff;
-	border: 1px solid #d7537b;
-}
-.owl-carousel:hover .owl-nav div {
-	opacity: 1;
-	visibility: visible;
-}
-.owl-carousel .owl-nav div:hover {
-	background: #ffffff;
-	color: #d7537b;
-	border:1px solid #d7537b;
-}
+
 /*
 ==========================================
     Footer Area Css
